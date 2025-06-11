@@ -8,7 +8,7 @@ CREATE SERVICE datahub_mysql_svc
     spec:
       containers:
       - name: mysql
-        image: /manage_db/datahub/datahub_repository/mariadb:10.5.8
+        image: /adm_snowflake/datahub/datahub_repository/mariadb:10.5.8
         env: 
             MYSQL_DATABASE: datahub
             MYSQL_USER: datahub

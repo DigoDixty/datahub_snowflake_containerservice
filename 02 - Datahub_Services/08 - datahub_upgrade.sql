@@ -8,7 +8,7 @@ FROM SPECIFICATION $$
 spec:
     containers:
     - name: datahubupgrade
-      image: /manage_db/datahub/datahub_repository/datahub-upgrade:head
+      image: /adm_snowflake/datahub/datahub_repository/datahub-upgrade:head
       args: [
           -u,
           SystemUpdate

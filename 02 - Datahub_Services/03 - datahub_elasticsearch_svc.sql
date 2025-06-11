@@ -8,7 +8,7 @@ CREATE SERVICE datahub_elasticsearch_svc
     spec:
       containers:
       - name: elasticsearch
-        image: /manage_db/datahub/datahub_repository/elasticsearch:7.10.1
+        image: /adm_snowflake/datahub/datahub_repository/elasticsearch:7.10.1
         env:
             SERVER_PORT: 9200
             DATAHUB_MAPPED_ELASTIC_PORT: 9200

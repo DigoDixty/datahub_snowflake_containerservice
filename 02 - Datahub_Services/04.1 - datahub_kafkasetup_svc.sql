@@ -8,7 +8,7 @@ CREATE SERVICE datahub_kafkasetup_svc
     spec:
       containers:
       - name: kafkasetup
-        image: /manage_db/datahub/datahub_repository/datahub-kafka-setup:head
+        image: /adm_snowflake/datahub/datahub_repository/datahub-kafka-setup:head
         env:
             DATAHUB_PRECREATE_TOPICS: ${DATAHUB_PRECREATE_TOPICS:-false}
             KAFKA_BOOTSTRAP_SERVER: datahub-broker-svc.mupx.svc.spcs.internal:29092

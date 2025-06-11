@@ -8,7 +8,7 @@ CREATE SERVICE datahub_zookeeper_svc
     spec:
       containers:
       - name: zookeeper
-        image: /manage_db/datahub/datahub_repository/cp-zookeeper:7.9.1
+        image: /adm_snowflake/datahub/datahub_repository/cp-zookeeper:7.9.1
         env:
           ZOOKEEPER_CLIENT_PORT: 2181
           ZOOKEEPER_TICK_TIME: 2000

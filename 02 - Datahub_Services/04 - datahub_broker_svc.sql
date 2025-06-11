@@ -10,7 +10,7 @@ FROM SPECIFICATION $$
 spec:
     containers:
     - name: broker
-      image: /manage_db/datahub/datahub_repository/cp-kafka:7.9.1
+      image: /adm_snowflake/datahub/datahub_repository/cp-kafka:7.9.1
       env:
           SERVER_PORT: 9092, 29092
           KAFKA_BROKER_ID: 1

@@ -8,7 +8,7 @@ FROM SPECIFICATION $$
     spec:
       containers:
       - name: elasticsearchsetup
-        image: /manage_db/datahub/datahub_repository/datahub-elasticsearch-setup:head
+        image: /adm_snowflake/datahub/datahub_repository/datahub-elasticsearch-setup:head
         env:
             ELASTICSEARCH_USE_SSL: false
             USE_AWS_ELASTICSEARCH: false

@@ -8,7 +8,7 @@ CREATE SERVICE datahub_mysqlsetup_svc
     spec:
       containers:
       - name: mysqlsetup
-        image: /manage_db/datahub/datahub_repository/datahub-mysql-setup:head
+        image: /adm_snowflake/datahub/datahub_repository/datahub-mysql-setup:head
         env: 
             MYSQL_USERNAME: datahub
             MYSQL_PASSWORD: datahub

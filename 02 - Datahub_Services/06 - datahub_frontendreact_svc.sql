@@ -10,7 +10,7 @@ FROM SPECIFICATION $$
 spec:
     containers:
     - name: datahub-frontend-react
-      image: /manage_db/datahub/datahub_repository/datahub-frontend-react:head
+      image: /adm_snowflake/datahub/datahub_repository/datahub-frontend-react:head
       env:
         DATAHUB_GMS_HOST: datahub-gms-svc.mupx.svc.spcs.internal
         DATAHUB_GMS_PORT: 8080

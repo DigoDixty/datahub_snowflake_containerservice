@@ -8,7 +8,7 @@ CREATE SERVICE datahub_schema_registry_svc
     spec:
       containers:
       - name: schema-registry
-        image: /manage_db/datahub/datahub_repository/cp-schema-registry:7.9.1
+        image: /adm_snowflake/datahub/datahub_repository/cp-schema-registry:7.9.1
         env:
             SCHEMA_REGISTRY_HOST_NAME: schemaregistry
             SCHEMA_REGISTRY_KAFKASTORE_SECURITY_PROTOCOL: PLAINTEXT

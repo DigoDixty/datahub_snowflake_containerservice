@@ -8,7 +8,7 @@ FROM SPECIFICATION $$
 spec:
     containers:
     - name: datahub-gms
-      image: /manage_db/datahub/datahub_repository/datahub-gms:head
+      image: /adm_snowflake/datahub/datahub_repository/datahub-gms:head
       
       env:
           SERVER_PORT: 8080
